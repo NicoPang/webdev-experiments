@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Test Chamber</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="indent-slider-container">
+            <div class="slider-container">
+                <input type="range" min="'1" max="100" value="50" class="list-slider" oninput="update_list_slider_value(value)">
+            </div>
+            <p>Value is <span id="value-display"></span>.</p>
+            <ul id="changing-list" style="padding-left: 50px;">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+        </div>
+    </body>
+</html>
