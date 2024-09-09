@@ -1,2 +1,2 @@
 # webdev-experiments
-Little funny things to help learn HTML and CSS
+Little funny experiments to satisfy my brain.
